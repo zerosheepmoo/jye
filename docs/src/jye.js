@@ -15,6 +15,13 @@ $$/       $$/  $$$$$$$ |$$/   $$/    $$$$/  $$/ $$/   $$/  $$$$$$$ |$$/ $$/
                $$$$$$/                                     $$$$$$/          
         </pre>`
     }
+    else {
+        o.innerHTML =""
+    }
+}
+
+let resetInnerHTML = function(o) {
+    o.innerHTML = ""
 }
 
 document.addEventListener("DOMContentLoaded", function(){
