@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function(){
     let jyeCon = document.getElementById("jye");
 
     let t = document.createElement("input");
-    t.type = "text"
+    t.type = "text";
+    t.placeholder = "...Plz input!";
     let o = document.createElement("div");
 
     let b = document.createElement("button");
