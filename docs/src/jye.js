@@ -1,6 +1,6 @@
 let action = function (value, o) {
     if (value.includes("정예은")) {
-        o.innerHTML = `<pre>
+        o.innerHTML = `<pre style="font-size: 7px;">
 ________  __            __          __      __                      __  __ 
 /        |/  |          /  |        /  |    /  |                    /  |/  |
 $$$$$$$$/ $$/   ______  $$ |____   _$$ |_   $$/  _______    ______  $$ |$$ |
